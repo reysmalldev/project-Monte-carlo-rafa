@@ -8,7 +8,7 @@ submit.addEventListener('click', () => {
         r = Math.sqrt((x * x + y * y))
 
         if (r <= 1) {
-            
+            console.log("r menor que 1! x = " ,x , " y = ", y );
         }
     }
 })
