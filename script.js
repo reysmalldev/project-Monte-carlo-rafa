@@ -4,11 +4,19 @@ submit.addEventListener('click', () => {
     numberOfReps = parseInt(input.value)
 
     for (i = 0; i < numberOfReps; i++) {
-        let x = Math.random(), y = Math.random()
-        r = Math.sqrt((x * x + y * y))
+        let x = Math.random(),
+            y = Math.random(),
+            d = 0;
+        let r = Math.sqrt((x * x + y * y));
 
         if (r <= 1) {
-            console.log("r menor que 1! x = " ,x , " y = ", y );
+            console.log("r menor que 1! x = ", x, " y = ", y);
+
+            d++;
         }
+        console.log(`x = ${x}, y = ${y}`);
     }
+
+    document.write("Numero total de pontos " + numberOfReps, " Número de pontos dentro da área do um quarto da circunferência ", d);
 })
+
