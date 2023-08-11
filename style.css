@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column {
+    flex-direction: column;
+}
+.wrapper {
+    top: 50;    
+    position: absolute; 
+    padding: 10px;
+    
+}
+
+button {
+    width: 100px;
+}
+
+#div1 {
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.container>label {
+    margin-right: 1vh;
+}
