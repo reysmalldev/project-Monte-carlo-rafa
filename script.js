@@ -1,22 +1,31 @@
 let input = document.querySelector('#n'), submit = document.querySelector('#submit')
 
 submit.addEventListener('click', () => {
-    numberOfReps = parseInt(input.value)
+    if(input.value != "") {
+        numberOfReps = parseInt(input.value), d = 0;
+
+
+
 
     for (i = 0; i < numberOfReps; i++) {
         let x = Math.random(),
-            y = Math.random(),
-            d = 0;
-        let r = Math.sqrt((x * x + y * y));
-
-        if (r <= 1) {
-            console.log("r menor que 1! x = ", x, " y = ", y);
-
-            d++;
+            y = Math.random()
+            
+        let idk = ((x**2) + y**2)
+        if (idk <= 1) {
+            d += 1
         }
-        console.log(`x = ${x}, y = ${y}`);
+        
     }
 
-    document.write("Numero total de pontos " + numberOfReps, " Número de pontos dentro da área do um quarto da circunferência ", d);
+   
+
+    console.log("sla " + (d))
+    let pi = 4 * (d/ numberOfReps)
+
+    document.querySelector('#textA').innerHTML = `PI = ${pi}`
+    } else {
+        alert("Por favor, Insira um número antes de Enviar!!")
+    }
 })
 
