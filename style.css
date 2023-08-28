@@ -1,27 +1,60 @@
+body {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     display: flex;
+    
+}
+.center {
     align-items: center;
     justify-content: center;
 }
 .column {
     flex-direction: column;
 }
-.wrapper {
-    top: 50;    
-    position: absolute; 
+.wrapper {  
     padding: 10px;
     
 }
 
+input {
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+}
+
 button {
     width: 100px;
+    font-size: 20px;
+    background-color: rgb(182, 136, 226);
+    border-radius: 15px;
 }
 
 #div1 {
-    height: 10vh;
+    border-radius: 15px;
+    padding: 30px 20px 20px 20px;
+    border: 5px solid azure;
+    background-color: rgb(255, 202, 182);
+    margin-top: 20px;
+    height: 20vh;
     justify-content: space-between;
+}
+
+#n {
+    margin-left: 1vh;
 }
 
 .container>label {
     margin-right: 1vh;
+}
+
+#final {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
 }
