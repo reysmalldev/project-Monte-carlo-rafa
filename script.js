@@ -5,8 +5,6 @@ submit.addEventListener('click', () => {
         numberOfReps = parseInt(input.value), d = 0;
 
 
-
-
     for (i = 0; i < numberOfReps; i++) {
         let x = Math.random(),
             y = Math.random()
@@ -23,9 +21,18 @@ submit.addEventListener('click', () => {
     console.log("sla " + (d))
     let pi = 4 * (d/ numberOfReps)
 
-    document.querySelector('#textA').innerHTML = `PI = ${pi}`
+    document.querySelector('#textA').innerHTML = `PI = ${pi.toFixed(6)}`
     } else {
         alert("Por favor, Insira um número antes de Enviar!!")
     }
 })
+
+
+
+
+let atan = document.querySelector('#result')
+
+atan.innerHTML += (4 * Math.atan(1)).toFixed(6).toString()
+
+
 
