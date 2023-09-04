@@ -21,7 +21,7 @@ submit.addEventListener('click', () => {
     console.log("sla " + (d))
     let pi = 4 * (d/ numberOfReps)
 
-    document.querySelector('#textA').innerHTML = `PI = ${pi.toFixed(6)}`
+    document.querySelector('#textA').innerHTML = `Aproximação de π = ${pi.toFixed(6)}`
     } else {
         alert("Por favor, Insira um número antes de Enviar!!")
     }

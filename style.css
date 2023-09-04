@@ -49,6 +49,7 @@ body {
 }
 
 #div3 {
+    justify-content: space-evenly;
     padding: 20px 0 20px 0;
 }
 
@@ -108,3 +109,11 @@ footer {
     position: relative;
     left: 0;
 }
+
+.imagens {
+    margin-bottom: 20px;
+    border: 10px solid black;
+}
+
+
+
