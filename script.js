@@ -1,7 +1,7 @@
 let input = document.querySelector('#n'), submit = document.querySelector('#submit')
 
 submit.addEventListener('click', () => {
-    if(input.value != "") {
+    if(input.value != "" && input.value != NaN) {
         numberOfReps = parseInt(input.value), d = 0;
 
 
