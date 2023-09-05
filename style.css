@@ -126,6 +126,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }
 
     img {
@@ -154,4 +155,10 @@ footer {
     #destaque {
         font-size: 20px;
     }
+
+    footer {
+        width: 100%;
+        font-size: 22px;
+    }
+    
 }
