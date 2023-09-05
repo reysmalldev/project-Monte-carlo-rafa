@@ -146,10 +146,13 @@ footer {
     #div2 {
         width: 100%;
         justify-content: space-evenly;
+        align-items: center;
         height: 100%;
     }
     
     #div2 > * {
+        text-align: center;
+        width: 80%;
         margin:  0 0 10px 0 ;
     }
     #div3 {
