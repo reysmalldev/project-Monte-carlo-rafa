@@ -121,8 +121,20 @@ footer {
 
 @media screen and (max-width: 600px) {
     body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+    }
+    #principalText {
+        position: relative;
+        
         width: 60%;
-        height: 80%;
     }
 	#div1 {
         width: 60%;
