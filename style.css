@@ -134,7 +134,7 @@ footer {
     #principalText {
         position: relative;
         
-        width: 60%;
+        width: 90%;
     }
 	#div1 {
         width: 60%;
@@ -149,5 +149,9 @@ footer {
     #div3 {
         width: 60%;
         height: 80%;
+    }
+
+    #destaque {
+        font-size: 20px;
     }
 }
