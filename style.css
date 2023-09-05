@@ -126,7 +126,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
     }
 
     img {
@@ -156,9 +155,17 @@ footer {
         font-size: 20px;
     }
 
-    footer {
+    #final {
+        padding: 5px;
         width: 100%;
         font-size: 22px;
+        justify-content: center;
     }
-    
+    #names {
+        font-size: 22px;
+    }
+
+    #complement {
+        height: 5px;
+    }
 }
